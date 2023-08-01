@@ -20,8 +20,8 @@ p,
 body{
     background-color: #f7edf5;
 }
-.h1{
-    color: white;
+h1{
+    color: #f7edf5;
     text-align: center;
 }
 .선택창{
