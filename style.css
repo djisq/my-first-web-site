@@ -24,6 +24,7 @@ h1{
     color: #f7edf5;
     text-align: center;
 }
-.선택창{
-    text-align: center;
+
+.main{
+    display: block; margin: 0 auto;
 }
