@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Ramche';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Ramche.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Ramche';
+    background-color: rgb(151, 134, 150);
+    margin: 0px;
+}
+
+
+
+.말풍선 {
+    text-align: center;
+    width: 50%;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    margin: 5%;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+.말풍선:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid rgb(255, 255, 255);
+    border-bottom: 13px solid transparent;
+  }
+
+.선택{
+    text-align: center;
+    width: 50%;
+    height: 80px;
+    margin: 0px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    top: 19rem;
+    left: 25%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.선택2{
+    text-align: center;
+    width: 50%;
+    height: 80px;
+    margin: 0px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    top: 20rem;
+    left: 25%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.대답 {
+    text-align: center;
+    width: 50%;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    margin: 5%;
+    margin-left: 45%;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+.대답:before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid rgb(255, 255, 255);
+    border-bottom: 13px solid transparent;
+  }
