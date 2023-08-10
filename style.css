@@ -28,3 +28,20 @@ h1{
 .main{
     display: block; margin: 0 auto;
 }
+
+.학교{
+    text-align: center;
+    background-color: rgb(247, 202, 235);
+}
+
+h4{
+    font-size: 250%;
+    font-family: 'Ramche';
+}
+
+.school {
+    width: 60%;
+    height: 30rem;
+    background: rgb(247, 202, 235);
+    border-radius: 100px / 50px;
+  }
